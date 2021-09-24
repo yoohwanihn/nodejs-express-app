@@ -1,0 +1,15 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: mynodered
+  buildpack: nodejs_buildpack
+  command: npm start
+  disk_quota: 1G
+  memory: 256MB
+  domain: mybluemix.net
+  host: mynodered0
+  services:
+    - mynodered-cloudant-1631337667292-61051
+  env:
+    OPTIMIZE_MEMORY: true
