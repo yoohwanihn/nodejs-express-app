@@ -2,12 +2,12 @@
 applications:
 - instances: 1
   timeout: 180
-  name: ptechkr1
+  name: ptechkr99
   buildpack: nodejs_buildpack
   command: npm start
   disk_quota: 1G
   memory: 64MB
   domain: mybluemix.net
-  host: ptechkr1
+  host: ptechkr99
   env:
     OPTIMIZE_MEMORY: true
