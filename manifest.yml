@@ -2,12 +2,12 @@
 applications:
 - instances: 1
   timeout: 180
-  name: ptechkr99
+  name: chita
   buildpack: nodejs_buildpack
   command: npm start
   disk_quota: 1G
   memory: 48MB
   domain: mybluemix.net
-  host: ptechkr99
+  host: chita
   env:
     OPTIMIZE_MEMORY: true
